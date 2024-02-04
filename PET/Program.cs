@@ -38,11 +38,11 @@ class Pet
             happiness = Math.Min(10, happiness + 2);
             hunger = Math.Max(1, hunger + 1);
             DisplayStats();
-            Console.WriteLine($"{Name} is playing and enjoying the time.");
+            Console.WriteLine($"{Name} is currently playing and enjoying the time.");
         }
         else
         {
-            Console.WriteLine($"{Name} refuses to play because it's too hungry. Please feed {Name} first.");
+            Console.WriteLine($"{Name} has refused to play because it's too hungry. Please feed {Name} first.");
         }
     }
 
