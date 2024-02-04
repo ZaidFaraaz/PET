@@ -20,7 +20,7 @@ class Pet
     public void DisplayStats()
     {
         Console.WriteLine($"\n{Name} the {PetType}");
-        Console.WriteLine($"Hunger: {hunger}/10 | Happiness: {happiness}/10 | Health: {health}/10");
+        Console.WriteLine($"Hunger: {hunger} | Happiness: {happiness} | Health: {health}");
     }
 
     public void Feed()
