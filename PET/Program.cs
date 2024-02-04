@@ -62,12 +62,12 @@ class Pet
         Console.WriteLine("Time passes...");
 
         // Check for consequences of neglect
-        if (hunger >= 8)
+        if (hunger >= 9)
         {
             health = Math.Max(1, health - 2);
             Console.WriteLine($"{Name} is too hungry and losing health!");
         }
-        if (happiness <= 2)
+        if (happiness <= 1)
         {
             health = Math.Max(1, health - 1);
             Console.WriteLine($"{Name} is very unhappy and health is deteriorating.");
