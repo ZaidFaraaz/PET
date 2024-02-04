@@ -70,7 +70,7 @@ class Pet
         if (happiness <= 1)
         {
             health = Math.Max(1, health - 1);
-            Console.WriteLine($"{Name} is very unhappy and health is deteriorating.");
+            Console.WriteLine($"{Name} is very unhappy right now and his health status is deteriorating.");
         }
     }
 
